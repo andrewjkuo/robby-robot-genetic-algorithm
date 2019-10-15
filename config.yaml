@@ -1,0 +1,20 @@
+# grid settings
+rubbish_probability: 0.5
+grid_size: 10
+
+# evolution settings
+wall_penalty: -5
+no_rub_penalty: -1
+rubbish_score: 10
+mutation_rate: 0.01
+
+# simulation settings
+pop_size: 200
+num_breeders: 100
+num_generations: 400
+iterations_per_simulation: 100
+moves_per_iteration: 200
+
+# benchmark strategy
+# move away from walls, always pickup rubbish, move towards rubbish
+benchmark_dna: '226226336226226336226226226226226336226226336226226226116116116116116116116116116336336336336336336226226226006006336116556336226226226116116116116116116116116116006006006006006006006006006006006006006006006006006006006006006006006006006006006'
