@@ -1,6 +1,9 @@
 # robby-robot-genetic-algorithm
 Implementation of the Robby Robot genetic algorithm described in Melanie Mitchell's "Complexity: A Guided Tour"
 
+### Tutorial
+I have written a technical Python tutorial for this project which has been published on [Towards Data Science](https://towardsdatascience.com/optimising-a-rubbish-collection-strategy-with-genetic-algorithms-ccf1f4d56c4f).
+
 ### Approach
 A robot named Robby lives in a two-dimensional grid world full of rubbish and surrounded by 4 walls. The aim of this project is to evolve an optimal control strategy for Robby that will allow him to pick up rubbish efficiently and not crash into walls. Robby can only see the four squares NESW of himself as well as the square he is in. There are 3 options for each square; it can be empty, have rubbish in it or be a wall. Therefore there are 3⁵ = 243 different scenarios Robby can be in. Robby can perform 7 different actions; move NESW, move randomly, pickup rubbish or stay still. Robby's control strategy can therefore be encoded as a "DNA" string of 243 digits between 0 and 6 (corresponding to the action Robby should take in each of the 243 possible situations).
 
